@@ -1,0 +1,48 @@
+{
+    "status": "success",
+    "modelResult": {
+        "response": "To set up the corporate VPN on your device, follow the instructions for your operating system:\n\n### Windows\n1. Download **GlobalProtect** from `https://vpn.company.com`\n2. Install and launch the application\n3. Enter the portal address: `vpn.company.com`\n4. Authenticate with your corporate credentials + MFA token\n\n### macOS\n1. Download GlobalProtect from the **Self-Service** app\n2. Open the `.pkg` installer and follow the prompts\n3. Enter portal: `vpn.company.com`\n4. Use your corporate credentials + MFA\n\n### Troubleshooting\n- **Connection drops frequently?** Ensure you're not on a restricted network (some hotel/airport WiFi blocks VPN)\n- **MFA not working?** Re-sync your authenticator app in the MFA portal\n- **Still stuck?** Open a ticket with IT Support — Category: *Network > VPN*",
+        "citations": [
+            {
+                "id": "e5f6a1b2c3d4e5f6a1b2c3d4",
+                "metadata": {
+                    "source": "./docstore/ITSupport/VPN_Setup_Guide.pdf",
+                    "chunk_id": 1,
+                    "id": "e5f6a1b2c3d4e5f6a1b2c3d4",
+                    "aisearch_score": 0.0934
+                },
+                "page_content": "VPN Configuration\n\nThe company uses GlobalProtect VPN for secure remote access. Download the client from the VPN portal at vpn.company.com. Authenticate using your corporate Active Directory credentials and multi-factor authentication.",
+                "type": "Document"
+            },
+            {
+                "id": "f6a1b2c3d4e5f6a1b2c3d4e5",
+                "metadata": {
+                    "source": "./docstore/ITSupport/VPN_Troubleshooting.pdf",
+                    "chunk_id": 3,
+                    "id": "f6a1b2c3d4e5f6a1b2c3d4e5",
+                    "aisearch_score": 0.0712
+                },
+                "page_content": "VPN Troubleshooting\n\nCommon issues include connection drops on restricted networks and MFA synchronization failures. If the authenticator app is not generating valid codes, re-register the device through the MFA self-service portal.",
+                "type": "Document"
+            }
+        ],
+        "usage": {
+            "total_tokens": 2890,
+            "prompt_tokens": 2450,
+            "prompt_tokens_cached": 0,
+            "completion_tokens": 440,
+            "reasoning_tokens": 0,
+            "successful request": 1,
+            "similarity_search_seconds": 0.1345,
+            "build_context_seconds": 0.0212,
+            "llm_call_seconds": 2.123,
+            "cosmos_call_seconds": 0.0,
+            "init_app_cts_seconds": 12.456
+        },
+        "question": "how do i set up VPN",
+        "refactor_quesion": "",
+        "chat_history": [],
+        "aicache": false,
+        "total_latency": 17.891
+    }
+}

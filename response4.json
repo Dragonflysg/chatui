@@ -1,0 +1,59 @@
+{
+    "status": "success",
+    "modelResult": {
+        "response": "Here's how to submit an expense report:\n\n1. Log in to **Concur** at `https://concur.company.com`\n2. Click **\"Create New Report\"**\n3. Fill in the report header:\n   - Report Name (e.g., *\"Q1 Client Meeting — NYC\"*)\n   - Business Purpose\n   - Cost Center (auto-populated from your profile)\n4. Add each expense line item with:\n   - Date of expense\n   - Expense category (Meals, Travel, Lodging, etc.)\n   - Amount and currency\n   - **Attach the receipt** (photo or PDF)\n5. Click **Submit** — it routes to your manager for approval\n\n**Important Deadlines:**\n- Expenses must be submitted within **60 days** of the transaction date\n- Late submissions require VP-level approval\n- Reimbursement is typically processed within **10 business days** after approval\n\n> **Tip:** Use the Concur mobile app to snap receipts on the go — they'll sync automatically to your account.",
+        "citations": [
+            {
+                "id": "a1a1b2b2c3c3d4d4e5e5f6f6",
+                "metadata": {
+                    "source": "./docstore/Finance/ExpenseReport_Policy.pdf",
+                    "chunk_id": 2,
+                    "id": "a1a1b2b2c3c3d4d4e5e5f6f6",
+                    "aisearch_score": 0.0887
+                },
+                "page_content": "Expense Report Submission\n\nAll expense reports must be submitted through Concur within 60 days of the transaction date. Each line item requires a receipt attachment. Reports are routed to the employee's direct manager for approval.",
+                "type": "Document"
+            },
+            {
+                "id": "b2b2c3c3d4d4e5e5f6f6a1a1",
+                "metadata": {
+                    "source": "./docstore/Finance/Concur_UserGuide.pdf",
+                    "chunk_id": 1,
+                    "id": "b2b2c3c3d4d4e5e5f6f6a1a1",
+                    "aisearch_score": 0.0756
+                },
+                "page_content": "Getting Started with Concur\n\nLog in at concur.company.com with your SSO credentials. To create a report, click 'Create New Report' from the dashboard. Fill in the report header including name, business purpose, and dates of travel.",
+                "type": "Document"
+            },
+            {
+                "id": "c3c3d4d4e5e5f6f6a1a1b2b2",
+                "metadata": {
+                    "source": "./docstore/Finance/Reimbursement_FAQ.pdf",
+                    "chunk_id": 3,
+                    "id": "c3c3d4d4e5e5f6f6a1a1b2b2",
+                    "aisearch_score": 0.0612
+                },
+                "page_content": "Reimbursement Timeline\n\nOnce an expense report is fully approved, reimbursement is processed within 10 business days and deposited directly into the employee's payroll bank account.",
+                "type": "Document"
+            }
+        ],
+        "usage": {
+            "total_tokens": 2780,
+            "prompt_tokens": 2340,
+            "prompt_tokens_cached": 0,
+            "completion_tokens": 440,
+            "reasoning_tokens": 0,
+            "successful request": 1,
+            "similarity_search_seconds": 0.1456,
+            "build_context_seconds": 0.0198,
+            "llm_call_seconds": 1.987,
+            "cosmos_call_seconds": 0.0,
+            "init_app_cts_seconds": 11.789
+        },
+        "question": "how do i submit an expense report",
+        "refactor_quesion": "",
+        "chat_history": [],
+        "aicache": false,
+        "total_latency": 16.567
+    }
+}

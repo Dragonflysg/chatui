@@ -1,0 +1,59 @@
+{
+    "status": "success",
+    "modelResult": {
+        "response": "The company vacation policy allows employees to take paid time off based on their tenure:\n\n| Tenure | Annual PTO Days |\n|--------|----------------|\n| 0–2 years | 15 days |\n| 3–5 years | 20 days |\n| 6+ years | 25 days |\n\n**Key Points:**\n- PTO requests must be submitted at least **2 weeks** in advance via the HR Portal\n- Manager approval is required for absences longer than 3 consecutive days\n- Up to **5 unused days** can be carried over to the next year\n- Unused days beyond the carryover limit will be forfeited on December 31\n\nFor parental leave, bereavement, or medical leave, please refer to the separate **Leave of Absence** policy or contact HR directly.",
+        "citations": [
+            {
+                "id": "b2c3d4e5f6a1b2c3d4e5f6a1",
+                "metadata": {
+                    "source": "./docstore/HR/VacationPolicy_2024.pdf",
+                    "chunk_id": 2,
+                    "id": "b2c3d4e5f6a1b2c3d4e5f6a1",
+                    "aisearch_score": 0.0912
+                },
+                "page_content": "Vacation Policy\n\nAll full-time employees are entitled to paid vacation days. Accrual is based on years of service: 0-2 years receive 15 days, 3-5 years receive 20 days, and 6+ years receive 25 days per calendar year.",
+                "type": "Document"
+            },
+            {
+                "id": "c3d4e5f6a1b2c3d4e5f6a1b2",
+                "metadata": {
+                    "source": "./docstore/HR/VacationPolicy_2024.pdf",
+                    "chunk_id": 5,
+                    "id": "c3d4e5f6a1b2c3d4e5f6a1b2",
+                    "aisearch_score": 0.0678
+                },
+                "page_content": "Carryover Policy\n\nEmployees may carry over up to 5 unused vacation days to the following year. Any days beyond this limit will be forfeited as of December 31. Requests for exceptions must be submitted to HR by November 15.",
+                "type": "Document"
+            },
+            {
+                "id": "d4e5f6a1b2c3d4e5f6a1b2c3",
+                "metadata": {
+                    "source": "./docstore/HR/PTORequestGuide.pdf",
+                    "chunk_id": 1,
+                    "id": "d4e5f6a1b2c3d4e5f6a1b2c3",
+                    "aisearch_score": 0.0523
+                },
+                "page_content": "PTO Request Process\n\nAll PTO requests should be submitted through the HR Portal at least 14 calendar days before the intended start date. Manager approval is automatically required for absences exceeding 3 consecutive business days.",
+                "type": "Document"
+            }
+        ],
+        "usage": {
+            "total_tokens": 2567,
+            "prompt_tokens": 2200,
+            "prompt_tokens_cached": 0,
+            "completion_tokens": 367,
+            "reasoning_tokens": 0,
+            "successful request": 1,
+            "similarity_search_seconds": 0.1567,
+            "build_context_seconds": 0.0234,
+            "llm_call_seconds": 1.789,
+            "cosmos_call_seconds": 0.0,
+            "init_app_cts_seconds": 10.567
+        },
+        "question": "what is the vacation policy",
+        "refactor_quesion": "",
+        "chat_history": [],
+        "aicache": false,
+        "total_latency": 16.234
+    }
+}

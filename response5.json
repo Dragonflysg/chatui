@@ -1,0 +1,48 @@
+{
+    "status": "success",
+    "modelResult": {
+        "response": "You can book a meeting room through **Microsoft Outlook** or the **Room Finder** web app:\n\n### Option 1: Outlook Calendar\n1. Create a new meeting event\n2. Click **\"Room Finder\"** in the toolbar\n3. Select your building and floor\n4. Choose an available room from the list\n5. Send the invite — the room is automatically reserved\n\n### Option 2: Room Finder Web App\n1. Go to `https://rooms.company.com`\n2. Filter by building, capacity, and equipment (projector, whiteboard, video conferencing)\n3. Select a time slot and click **\"Book\"**\n\n### Room Capacities\n- **Huddle Rooms** (2–4 people) — ideal for quick syncs\n- **Conference Rooms** (6–12 people) — standard meetings\n- **Board Rooms** (14–20 people) — large presentations, requires director-level approval\n\n**Note:** Rooms are released if no one checks in within **15 minutes** of the start time.",
+        "citations": [
+            {
+                "id": "d4d4e5e5f6f6a1a1b2b2c3c3",
+                "metadata": {
+                    "source": "./docstore/Facilities/RoomBooking_Guide.pdf",
+                    "chunk_id": 1,
+                    "id": "d4d4e5e5f6f6a1a1b2b2c3c3",
+                    "aisearch_score": 0.0923
+                },
+                "page_content": "Meeting Room Booking\n\nMeeting rooms can be booked through Outlook Calendar using the Room Finder feature, or through the Room Finder web application. Rooms are categorized by capacity: Huddle (2-4), Conference (6-12), and Board (14-20).",
+                "type": "Document"
+            },
+            {
+                "id": "e5e5f6f6a1a1b2b2c3c3d4d4",
+                "metadata": {
+                    "source": "./docstore/Facilities/RoomPolicy.pdf",
+                    "chunk_id": 2,
+                    "id": "e5e5f6f6a1a1b2b2c3c3d4d4",
+                    "aisearch_score": 0.0678
+                },
+                "page_content": "Room Release Policy\n\nAll meeting rooms are equipped with occupancy sensors. If no attendees check in within 15 minutes of the scheduled start time, the room reservation is automatically cancelled and the room becomes available for others.",
+                "type": "Document"
+            }
+        ],
+        "usage": {
+            "total_tokens": 2456,
+            "prompt_tokens": 2100,
+            "prompt_tokens_cached": 0,
+            "completion_tokens": 356,
+            "reasoning_tokens": 0,
+            "successful request": 1,
+            "similarity_search_seconds": 0.1189,
+            "build_context_seconds": 0.0178,
+            "llm_call_seconds": 1.654,
+            "cosmos_call_seconds": 0.0,
+            "init_app_cts_seconds": 10.890
+        },
+        "question": "how do i book a meeting room",
+        "refactor_quesion": "",
+        "chat_history": [],
+        "aicache": false,
+        "total_latency": 14.890
+    }
+}

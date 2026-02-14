@@ -1,0 +1,37 @@
+{
+    "status":"success",
+    "modelResult": {
+        "response":"To order your phone, follow these steps",
+        "citations": [
+            {
+                "id": "sdsdferf4rsdfefefefefef",
+                "metadata" : {
+                    "source": "./docstore/10871Assistant/AIHelp/pending/PhoneOrder.pdf",
+                    "chunk_id" : 1,
+                    "id" : "sdsdferf4rsdfefefefefef",
+                    "aisearch_score" : 0.0423456
+                },
+                "page_content": "Request\n\nHow can i obtain a mobile or Tablet Device?\nIn order to procure a mobile device, you have to follow these steps outlined in the procedure",
+                "type":"Document"
+            }
+        ],
+        "usage": {
+            "total_tokens": 1871,
+            "prompt_tokens": 1784,
+            "prompt_tokens_cached": 0,
+            "completion_tokens": 87,
+            "reasoning_tokens": 0,
+            "successful request": 1,
+            "similarity_search_seconds": 0.16444,
+            "build_context_seconds":0.02456,
+            "llm_call_seconds": 1.273,
+            "cosmos_call_seconds": 0.0,
+            "init_app_cts_seconds": 12.3245
+        },
+        "question": "how can i order a phone",
+        "refactor_quesion": "",
+        "chat_history": [],
+        "aicache": false,
+        "total_latency": 18.00444
+    }
+}

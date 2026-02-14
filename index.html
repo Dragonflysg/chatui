@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSI Assistant</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,400&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- App Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Main Container -->
+    <div class="app-container">
+
+        <!-- Hero / Greeting Section -->
+        <section id="hero-section" class="hero">
+            <div class="hero-logo">
+                <img src="logo.png" alt="Logo" id="app-logo">
+            </div>
+            <h1 class="hero-greeting" id="greeting-text"></h1>
+            <p class="hero-subtitle">Choose a prompt below or write your own to start chatting</p>
+
+            <!-- Sample Prompts -->
+            <div class="prompt-cards" id="prompt-cards">
+                <button class="prompt-card" data-prompt="Get fresh perspectives on tricky problems">
+                    <i class="fa-regular fa-lightbulb prompt-icon"></i>
+                    <span>Get fresh perspectives on tricky problems</span>
+                </button>
+                <button class="prompt-card" data-prompt="Brainstorm creative ideas for my project">
+                    <i class="fa-regular fa-compass prompt-icon"></i>
+                    <span>Brainstorm creative ideas for my project</span>
+                </button>
+                <button class="prompt-card" data-prompt="Summarize key points from a document">
+                    <i class="fa-regular fa-file-lines prompt-icon"></i>
+                    <span>Summarize key points from a document</span>
+                </button>
+                <button class="prompt-card" data-prompt="Help me write a professional email">
+                    <i class="fa-regular fa-pen-to-square prompt-icon"></i>
+                    <span>Help me write a professional email</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Input Section (stays visible always) -->
+        <section class="input-section" id="input-section">
+            <div class="input-wrapper">
+                <textarea
+                    id="user-input"
+                    placeholder="How can I help you today?"
+                    rows="1"
+                    autofocus
+                ></textarea>
+                <button class="send-btn" id="send-btn" title="Send message">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </button>
+            </div>
+            <p class="input-hint">Use <kbd>Shift</kbd> + <kbd>Enter</kbd> for new line</p>
+        </section>
+
+        <!-- Loading Indicator -->
+        <div class="loading-indicator" id="loading-indicator">
+            <div class="loading-dots">
+                <span></span><span></span><span></span>
+            </div>
+            <p>Thinking...</p>
+        </div>
+
+        <!-- Response Cards Container -->
+        <section class="cards-container" id="cards-container"></section>
+
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- marked.js for Markdown -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.0/marked.min.js"></script>
+    <!-- App Logic -->
+    <script src="js/app.js"></script>
+
+</body>
+</html>
